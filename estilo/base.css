@@ -1,3 +1,10 @@
+.desp{
+    border: none;
+    width: 72px;
+    color: white;
+    background-color: rgb(28, 28, 73);
+    font-size: 32px;
+}
 .conteudo {
     width: 100%;
     text-align: center;
