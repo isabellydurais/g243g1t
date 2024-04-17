@@ -66,7 +66,7 @@ function iniciarContagem(){
     fim = document.getElementById("fim").value;
     contar = setInterval(() => {
     contador();
-}, 1500);
+}, 1000);
 }
 let hd = 0;
 let md = 0;
@@ -80,7 +80,7 @@ function pegar_hora(){
 }
 function ativar_alarme(){
     let d = new Date();
-    if(hd==d.getHours() && md==d.getMinutes() && sd==s.getSeconds()){
+    if(hd==d.getHours() && md==d.getMinutes() && sd==d.getSeconds()){
         clearInterval(alarme);
         alert("Alarme... Voltando para Aba3");
         abrir(3);
